@@ -16,7 +16,7 @@ Packet pkt;
 #define MIN_BRIGHTNESS 60
 #define MAX_BRIGHTNESS 255
 #define SENSITIVITY 4.0
-#define MAX_VU 24
+#define MAX_VU 24 //LED juosta įsijungs kai VU lygis pasieks bent pusę maksimalios reikšmės (12 iš 24)
 
 // ---- AUTO GAIN ----
 float gain = 1.0;
